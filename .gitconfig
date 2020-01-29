@@ -11,7 +11,6 @@
 ;   path = ~/dotfiles/.gitconfig
 
 [core]
-    editor = /usr/local/bin/vim
     autocrlf = input
 [alias]
     s = status -s
