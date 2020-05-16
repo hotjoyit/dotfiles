@@ -65,4 +65,4 @@ bind '"\ev": "fav\C-m"'     # meta + v 를 누르면 fav 를 실행해 준다.
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 # ls /usr/local/bin | sort -R | head -1 | xargs printf "Did you know about %s ?\n"
-fortune $HOME/quotes/quotes.txt
+fortune $HOME/quotes
