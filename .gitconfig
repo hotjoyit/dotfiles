@@ -40,7 +40,6 @@
     b0 = "!git branch | awk '/^\\*/{print $2}'"
     back = "!git branch backup-`git b0`"
 
-    ch = "!git checkout $(git branch -vv | grep -v '^\\*' | fzf | awk '{print $1}')"
     sync = "!f() { git fetch $1 && git reset --hard $1/$(git b0); }; f"
 
     bb = "! # Branch tools. Type 'git bb help' ; \n\
