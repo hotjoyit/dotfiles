@@ -19,6 +19,7 @@
     br = branch
     unstage = reset HEAD --
     last = log -3 HEAD
+    discard = checkout -- 
     a = "!git diff-select | xargs git add"
     diff-select = "! # add files with fzf preview diffs; \n\
     f() { \
