@@ -17,6 +17,7 @@
     co = checkout
     ci = commit
     br = branch
+    unstage = reset HEAD --
     a = "!git diff-select | xargs git add"
     diff-select = "! # add files with fzf preview diffs; \n\
     f() { \
