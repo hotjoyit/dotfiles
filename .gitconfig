@@ -16,7 +16,7 @@
     s = status -s
     co = checkout
     ci = commit
-    br = branch
+    br = branch -v
     unstage = reset HEAD --
     last = log -3 HEAD
     discard = checkout -- 
